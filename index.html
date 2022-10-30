@@ -50,9 +50,15 @@
             height: 30vh;
             padding-top: 40px;
             padding-left: 20px;
+            text-align: center;
         }
        body{
-        background-color: rgb(199, 235, 247);
+        background-color: rgb(235, 249, 253);
+       }
+       footer{
+        text-align: center;
+        font-size: small;
+        padding: 10vh;
        }
         
     </style>
@@ -67,7 +73,7 @@
     </header>
     <main>
         <div class="main">
-        <div> Name:
+        <div>Name:
         <input type="text" class="sName">
         </div>
         <br>
@@ -82,11 +88,17 @@
         </div>
         </div>
         <hr>
-        <div class="btndiv"><button class="btn" >Submit</button></div>
+        <form>
+        <div class="btndiv">
+            <button class="btn" formaction="vote.html">Submit</button>
+        </div>
+        </form>
+        
         
 
     </main>
     <footer>
+        <p>&copy; Project MB</p>
 
     </footer>
 </body>
